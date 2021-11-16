@@ -1,7 +1,6 @@
 import Form from "../Form/Form";
 import Weather from "../Weather/Weather";
 import "./ContainerWather.styles.css";
-import Moutains from "../../../assets/moutains.jpeg"
 
 const ContainerWeather = ({dataWeather, handleQueryCity, handleSubmit}) => {
 

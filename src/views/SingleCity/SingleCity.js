@@ -28,7 +28,7 @@ const SingleCity = () => {
         }
 
         handleData();
-    }, [])
+    }, [name])
     ;
     return (
         <>
