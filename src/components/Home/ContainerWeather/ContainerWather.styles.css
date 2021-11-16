@@ -1,0 +1,27 @@
+.container-weather {
+    color: white;
+    margin-top: 50px;
+    background-color: #1E213A;
+}
+
+h2 {
+    padding: 7px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.container-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    height: 100%;
+    background-color: rgba(16, 14, 29, 0.84);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

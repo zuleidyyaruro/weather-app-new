@@ -1,0 +1,25 @@
+
+
+h2 {
+    padding: 7px;
+    text-transform: capitalize;
+}
+
+.text-yellow {
+    color:#FBF46D;
+}
+
+.container-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    color: #FBF46D;
+}
+
+img {
+    width: 170px;
+}
+

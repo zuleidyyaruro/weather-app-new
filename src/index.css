@@ -20,6 +20,7 @@ body {
     width: 100%;
     text-align: center;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .col-sm-1 {
@@ -123,13 +124,5 @@ body {
 }
 
 .border {
-    border: solid white 1px;
-}
-
-img {
-    width: 170px;
-}
-
-svg {
-    color: #FBF46D;
+    border: 1px solid white;
 }
