@@ -54,16 +54,15 @@ const Home = () => {
         setDataWeather(result);
     }
 
-
     return (
-        <div>
+        <>
             <Header/>
             {
                 loader ? <Loader/> : <ContainerWeather dataWeather={dataWeather} handleQueryCity={handleQueryCity}
                                                        handleSubmit={handleSubmit}/>
             }
 
-        </div>
+        </>
     )
 }
 

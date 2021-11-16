@@ -1,19 +1,23 @@
 .container-singlecity {
     color: white;
-    margin-top: 50px;
-    background-color: #100E1D;
+    margin-top: 20px;
 }
 
-h2 {
+.title-singlecity {
     text-align: center;
     font-size: 30px;
 }
 
 .card-singlecity {
-    padding: 20px;
+    padding: 45px 20px;
     background-color: #1E213A;
+    border: 10px solid #100E1D;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.row-single {
-    background-color: #100E1D;
+.image-singlecity {
+    text-align: center;
 }

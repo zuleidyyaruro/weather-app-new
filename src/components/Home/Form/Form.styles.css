@@ -8,14 +8,14 @@ form {
 input {
     padding: 10px;
     margin-bottom: 10px;
-    width: 80%;
+    width: 100%;
     border-radius: 5px;
     border: none;
 }
 
 button {
     padding: 7px;
-    width: 40%;
+    width: 100%;
     background-color: #FBF46D;
     color:#222;
     border: none;
@@ -24,4 +24,14 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color: rgba(251, 244, 109, 0.75);
+}
+
+@media only screen and (min-width: 768px) {
+    input {
+        width: 80%;
+    }
+    button {
+        width: 40%;
+    }
 }

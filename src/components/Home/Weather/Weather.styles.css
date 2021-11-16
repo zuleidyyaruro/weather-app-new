@@ -1,10 +1,4 @@
 
-
-h2 {
-    padding: 7px;
-    text-transform: capitalize;
-}
-
 .text-yellow {
     color:#FBF46D;
 }
@@ -20,6 +14,18 @@ svg {
 }
 
 img {
-    width: 170px;
+    width: 150px;
 }
 
+.weather a {
+    background-color: #FBF46D;
+    text-decoration: none;
+    color: #222222;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.weather a:hover {
+    cursor: pointer;
+    background-color: rgba(251, 244, 109, 0.75);
+}
